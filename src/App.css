@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  border: solid 2px black;
+}
+
+#blogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#profile-image {
+  height: 200px;
+  width: 250px;
+}
+
+#blogs-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog-posts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  border: solid black 1px;
+  width: 500px;
+  background-color: burlywood;
+}
+
+#single-blog-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+hr {
+  height: 1px;
+  width: 50vw;
+}
